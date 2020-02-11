@@ -1,0 +1,194 @@
+/*---------Media Version----------*/
+
+
+
+/*--------media Max-width: 1024px----------*/
+@media (max-width: 1024px ) {
+	
+	/*-----Mortgage------*/
+	.input__box {
+		width: 100%;
+		max-width: 236px;
+		text-align: center;
+	}
+
+	/*------Map-------*/
+
+	.map {
+		padding-bottom: 0;
+		padding-top: 100px ;
+	}
+	/*----Button----*/
+	.button {
+		width: 100%;
+		padding: 15px 0;
+	}
+ 
+}
+/*--------media Max-width: 890px----------*/
+@media (max-width: 890px ) {
+	/*--------Area---------*/
+	.area {
+		padding:90px 0;
+	}
+
+	/*-----apartments---------*/
+	.apartment__titile {
+		margin-bottom: 75px;
+	}
+
+	/*-------Burger menu------*/
+	.burger-menu {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*---------Nav-----------*/
+	.nav {
+		width: 100%;
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		background-color:rgba(45, 52, 60,.8);
+		top: 0;
+		left: 0;
+		text-align: center;	
+	}
+	.nav.show {
+		display: flex;
+	}
+	.nav__link {
+		margin: 0;
+		padding: 10px 47px;
+}
+
+/*--------media Max-width: 779px----------*/
+
+@media (max-width: 779px ) {
+	/*-------Main--------*/
+	.main__tiitle {
+		margin: 70px 0;
+		font-size: 36px;
+	}
+
+	.mouse {
+		margin-bottom: 50px;
+	}
+	.network {
+		width: 20px;
+		margin-right: 5px;
+	}
+	/*-----question-------*/
+	.question__form  {
+		flex-wrap: wrap;
+	}
+	.question__tittle {
+		text-align: center;
+   		margin-bottom: 50px;
+	}
+	.form__item {
+		margin: 15px auto;
+    	width: 100%;
+    	max-width: 361px;
+	}
+	/*---------mortgage-------*/
+	.mortgage {
+		background: url(../img/mortgage.jpg) no-repeat, center;
+		height: auto;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.mortgage__inner {
+		flex-wrap: wrap;
+	}
+
+	.mortgage__item {
+		width: 100%;
+
+	}
+
+	/*----Video--------*/
+
+	.video__image {
+		max-width: 500px;
+	}
+	.elipse  {
+		width: 65px;
+   		height: 65px;
+	}
+	.trigger {
+		border-bottom: 15px solid transparent;
+    	border-left: 26px solid;
+    	border-top: 15px solid transparent;
+	}
+
+	/*-----Footer---------*/
+	.footer {
+		padding: 20px 0;
+	}
+	.footer__inner {
+		flex-wrap: wrap;
+	}
+	
+	.footer__link {
+		font-size: 12px;
+	}
+	.address_link {
+		font-size: 12px;
+	}
+}
+
+
+@media (max-width: 600px ) {
+	
+/*-----main------*/
+.main {
+	height: 100%;
+}
+
+.location {
+	flex-direction: column;
+	text-align: center;
+}
+.telephones {
+	margin: 20px 0;
+
+}
+
+/*----Area------*/
+	.area {
+		padding: 70px 0;
+	}
+	.area__item {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	
+	.area__icon {
+		margin-bottom: 40px;
+	}
+
+/*-----Apartments------*/
+	.apartments {
+		padding-bottom: 60px;
+	}
+	.apartments__item {
+		width: 100%;
+		margin: 40px 0;
+	}
+	
+	/*------footer--------*/
+
+	.footer__item {
+		width: 50%;
+		text-align: center;
+	}
+	.footer__link {
+		margin: 10px 0;
+	}
+	.address_link {
+		margin: 10px 0;
+	}
+
+}
